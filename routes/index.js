@@ -12,7 +12,7 @@ router.get('/about', function(req, res) {
 });
 
 //GET projects page
-router.get('/projects', function(req, res) {
+router.get('/project', function(req, res) {
     res.render('projects', { title: 'Projects' });
 });
 
