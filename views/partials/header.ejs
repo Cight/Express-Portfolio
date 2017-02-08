@@ -1,23 +1,38 @@
 <!--= Header =-->
 
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-                <span class="glyphicon glyphicon glyphicon-tree-deciduous"></span>
-                Frank Amaral
-            </a>
-        </div>
-
-        <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/skills">Skills</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-
-    </div>
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand">
+            <a href="/" onclick=$("#menu-close").click();>Frank Amaral</a>
+        </li>
+        <li>
+            <a href="/" onclick=$("#menu-close").click();>Home</a>
+        </li>
+        <li>
+            <a href="/about" onclick=$("#menu-close").click();>About</a>
+        </li>
+        <li>
+            <a href="/projects" onclick=$("#menu-close").click();>Projects</a>
+        </li>
+        <li>
+            <a href="/services" onclick=$("#menu-close").click();>Services</a>
+        </li>
+        <li>
+            <a href="/skills" onclick=$("#menu-close").click();>Skills</a>
+        </li>
+        <li>
+            <a href="/contact" onclick=$("#menu-close").click();>Contact</a>
+        </li>
+    </ul>
 </nav>
+
+<header id="top" class="header">
+    <div class="text-vertical-center">
+        <h1>Frank Amaral</h1>
+        <h3>Web Developer & Designer <b>@Newmarket, ON</b></h3>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg">What about you Frank?</a>
+    </div>
+</header>
