@@ -307,3 +307,36 @@ and (max-device-width: 568px) {
 .blackText {
     color: #000000;
 }
+
+/* Contact Form */
+
+.contact-form {
+    margin-top: 15px;
+    padding: 50px 0;
+}
+
+.contact-form .textarea {
+    min-height: 220px;
+    resize: none;
+}
+
+.form-control {
+    box-shadow: none;
+    border-color: #eee;
+    height: 49px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #00b09c;
+}
+
+.form-control-feedback {
+    line-height: 50px;
+}
+
+
+.form-control-feedback {
+    line-height: 50px;
+    top: 0px;
+}
